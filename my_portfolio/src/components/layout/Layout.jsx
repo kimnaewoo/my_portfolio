@@ -7,7 +7,6 @@ export function Layout() {
   return (
     <>
       <TopArea />
-      {/* <FooterArea /> */}
     </>
   );
 }
