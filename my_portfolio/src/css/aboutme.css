@@ -1,3 +1,13 @@
-#about{
-    display: none;
+#about {
+  display: none;
+}
+.about-tit {
+  margin: 2% 2% 2%;
+  font-size: 4rem;
+}
+.aboutme {
+  margin-left: 2%;
+  max-width: 1200px;
+  display: flex;
+  gap: 20px;
 }

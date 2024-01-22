@@ -4,16 +4,15 @@ export function Aboutme() {
   return (
     <>
       <div id="about">
-        <h1 className="about-tit">MY PROFILE</h1>
+        <h1 className="about-tit">👨🏻‍💻 MY PROFILE</h1>
         <div className="aboutme">
           <div className="imgbox">
             <img className="img" src="./images/profile.jpg" alt="프로필사진" />
           </div>
-          <h2>👨🏻‍💻 MY PROFILE </h2>
           <div className="content">
             <div className="introTitle">
               <b className="name">
-                김내우 <span>KIM NAEO WOO</span>
+                김내우 <span>KIM NAE WOO</span>
               </b>
               <p className="birth">1994년 7월 15일</p>
               <p className="email">gnag0403@naver.com</p>
