@@ -1,4 +1,4 @@
-import "../../css/aboutme.css";
+import '../../css/aboutme.css';
 
 export function Aboutme() {
   return (
@@ -20,9 +20,9 @@ export function Aboutme() {
             </div>
             <div className="introInfo">
               <p className="info">
-                2023년 코딩을 처음 접하였고 웹개발을 하기 위해 지금까지 열심히 달리고 있습니다.
+                2023년 코딩을 처음 접하였고 웹개발 코딩을 하기 위해 지금까지 열심히 달리고 있습니다.
                 <br /> 다소 부족하지만 부족한 지식은 하루하루 노력으로 채워가고 있습니다. <br />
-                빠르게 변하는 웹개발 트랜드 속에서,다양한 시도와 함께 사용자 입장을 고려하며 성실하게 성장하는
+                빠르게 변하는 웹개발트랜드 속에서, 다양한 시도와 함께 사용자 입장을 고려하며 성실하게 성장하는
                 프론트엔드 개발자가 되겠습니다.
               </p>
               <div className="career">
