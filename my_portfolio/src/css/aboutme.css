@@ -1,13 +1,32 @@
+body{
+  font-size: 1rem;
+  font-family: "Noto Sans KR", sans-serif;
+}
 #about {
   display: none;
+  margin-left: 5%;
 }
 .about-tit {
-  margin: 2% 2% 2%;
   font-size: 4rem;
+  max-width: 1200px;
 }
 .aboutme {
-  margin-left: 2%;
   max-width: 1200px;
   display: flex;
-  gap: 20px;
+  gap: 50px;
+}
+.imgbox {
+  width: 300px;
+}
+.imgbox > img {
+  width: 100%;
+}
+.introTitle{
+  border-bottom: 1px solid #000;
+}
+.introTitle>.name{
+  font-size: 1.5rem;
+}
+.introInfo>ul>li{
+  list-style: none;
 }

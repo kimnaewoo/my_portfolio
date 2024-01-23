@@ -62,11 +62,11 @@ export function TopArea() {
         <p>안녕하세요. 신입 개발자 김내우입니다.</p>
       </header>
       <nav>
-        <div className="skill">
-          <span onClick={showPJ}>PROJECT</span>
+        <div className="gnb skill" onClick={showPJ}>
+          <span>PROJECT</span>
         </div>
-        <div className="introduce">
-          <span onClick={showAM}>ABOUT ME</span>
+        <div className="gnb introduce" onClick={showAM}>
+          <span>ABOUT ME</span>
         </div>
       </nav>
       <Project />
