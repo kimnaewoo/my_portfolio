@@ -1,4 +1,4 @@
-import '../../css/aboutme.css';
+import "../../css/aboutme.css";
 
 export function Aboutme() {
   return (
@@ -25,15 +25,35 @@ export function Aboutme() {
                 빠르게 변하는 웹개발트랜드 속에서, 다양한 시도와 함께 사용자 입장을 고려하며 성실하게 성장하는
                 프론트엔드 개발자가 되겠습니다.
               </p>
-              <div className="career">
-                <li>2016. 8. 01 ~ 2017. 12. 30 젠하이드어웨이 파트셰프</li>
-                <li>2020. 5. 08 ~ 2022. 06. 08 남양유업 생산장비관리직</li>
-                <li>2022. 8. 01 ~ 2023. 06. 01 쿠쿠 앤 홈시스 A/S수리</li>
-              </div>
-              <div className="exp">
-                <li>2019. 4. 10 ~ 2020. 04. 05 호주 워킹 & 홀리데이</li>
-              </div>
             </div>
+          </div>
+        </div>
+        <div className="crr-exp">
+          <div className="career">
+            <p>Work Experience</p>
+            <li>
+              2022. 8. 01 ~ 2023. 06. 01 <br />
+              쿠쿠 앤 홈시스 A/S수리
+            </li>
+            <li>
+              2020. 5. 08 ~ 2022. 06. 08 <br />
+              남양유업 생산장비관리직
+            </li>
+            <li>
+              2016. 8. 01 ~ 2017. 12. 30 <br />
+              젠하이드어웨이 파트셰프
+            </li>
+          </div>
+          <div className="exp">
+            <p>Etc</p>
+            <li>
+              2023. 7. 26 ~ 2024. 01. 19 <br />
+              프론트엔드 웹&앱 SW개발자 과정 (그린컴퓨터 아카데미)
+            </li>
+            <li>
+              2019. 4. 10 ~ 2020. 04. 05 <br />
+              워킹 & 홀리데이 (호주 시드니)
+            </li>
           </div>
         </div>
         <div className="my-skill">

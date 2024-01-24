@@ -1,10 +1,11 @@
 body {
   font-size: 1rem;
   font-family: 'Noto Sans KR', sans-serif;
+  list-style: none;
 }
 #about {
   display: none;
-  margin-left: 5%;
+  margin-left: 17%;
 }
 #about h1 {
   font-size: 4rem;
@@ -52,6 +53,14 @@ body {
 }
 .introTitle > p {
   font-size: 1.2rem;
+}
+.crr-exp{
+  max-width: 1250px;
+  display: flex;
+  justify-content: space-around;
+}
+.crr-exp>div>p{
+  font-size: 1.5rem;
 }
 .skill {
   max-width: 1250px;
