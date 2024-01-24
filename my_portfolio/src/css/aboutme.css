@@ -12,7 +12,7 @@ body {
   max-width: 1200px;
 }
 .aboutme {
-  max-width: 1250px;
+  max-width: 1300px;
   display: flex;
   gap: 50px;
 }
@@ -54,18 +54,37 @@ body {
 .introTitle > p {
   font-size: 1.2rem;
 }
-.crr-exp{
+.introInfo > .info {
+  font-size: 1.4rem;
+}
+.crr-exp {
   max-width: 1250px;
   display: flex;
   justify-content: space-around;
+  font-size: 1.2rem;
+  margin-bottom: 2%;
 }
-.crr-exp>div>p{
-  font-size: 1.5rem;
+
+.crr-exp > div > p {
+  font-size: 1.6rem;
+  text-shadow: 1px 2px 2px gray;
+  font-weight: bold;
+}
+.career,
+.exp {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.my-skill {
+  border-top: 1px solid #000;
+  max-width: 1250px;
+  margin-bottom: 2%;
 }
 .skill {
-  max-width: 1250px;
   display: flex;
-  gap: 50px;
+  gap: 150px;
 }
 .skill > li {
   width: 100px;
