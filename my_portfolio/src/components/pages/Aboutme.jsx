@@ -30,9 +30,9 @@ export function Aboutme() {
         </div>
         <div className="crr-exp">
           <div className="career">
-            <p>Work Experience</p>
+            <p>🗂 Work Experience</p>
             <li>
-              2022. 8. 01 ~ 2023. 06. 01 <br />
+              2022. 11. 01 ~ 2023. 05. 01 <br />
               쿠쿠 앤 홈시스 A/S수리
             </li>
             <li>
@@ -40,15 +40,19 @@ export function Aboutme() {
               남양유업 생산장비관리직
             </li>
             <li>
+              2019. 5. 08 ~ 2020. 02. 08 <br />
+              Firestone 조리 및 식자재관리
+            </li>
+            <li>
               2016. 8. 01 ~ 2017. 12. 30 <br />
               젠하이드어웨이 파트셰프
             </li>
           </div>
           <div className="exp">
-            <p>Etc</p>
+            <p>✔ Etc</p>
             <li>
               2023. 7. 26 ~ 2024. 01. 19 <br />
-              프론트엔드 웹&앱 SW개발자 과정 (그린컴퓨터 아카데미)
+              프론트엔드 웹&앱 SW개발자 과정수료 (그린컴퓨터 아카데미)
             </li>
             <li>
               2019. 4. 10 ~ 2020. 04. 05 <br />
