@@ -10,8 +10,10 @@ export function TopArea() {
     let skls = document.querySelector('.skill span');
     let itd = document.querySelector('.introduce');
     let itds = document.querySelector('.introduce span');
+    let nav = document.querySelector('nav');
     about.style.display = 'none';
     pj.style.display = 'flex';
+    nav.style.top = '29.6%';
     skl.style.backgroundColor = '#fff';
     skls.style.color = 'rgb(0, 71, 187)';
     itd.style.backgroundColor = 'rgb(0, 71, 187)';
@@ -26,9 +28,11 @@ export function TopArea() {
     let itds = document.querySelector('.introduce span');
     let skl = document.querySelector('.skill');
     let skls = document.querySelector('.skill span');
+    let nav = document.querySelector('nav');
     about.style.display = 'block';
     pj.style.display = 'none';
     itd.style.backgroundColor = '#fff';
+    nav.style.top = '30.1%';
     itds.style.color = 'rgb(0, 71, 187)';
     skl.style.backgroundColor = 'rgb(0, 71, 187)';
     skls.style.color = '#fff';

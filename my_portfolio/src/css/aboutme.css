@@ -54,9 +54,9 @@ body {
 .introTitle > p {
   font-size: 1.2rem;
 }
-.introInfo > .info {
+/* .introInfo > .info {
   font-size: 1.4rem;
-}
+} */
 .crr-exp {
   max-width: 1250px;
   display: flex;
